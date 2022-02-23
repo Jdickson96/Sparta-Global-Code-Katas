@@ -1,22 +1,28 @@
-﻿class WeekAndDayCalculator
-{
-    static int Weeks(int input)
+﻿using System;
+namespace CodeToTest;
+    public class WeekAndDayCalculator
     {
-        int weekNo = input/7;
-  
-        return weekNo;
+        static int Weeks(int input)
+        {
+            int weekNo = input / 7;
+
+            return weekNo;
+        }
+
+        static int Days(int input)
+        {
+            int dayNo = input % 7;
+            return dayNo;
+        }
+
+        public static string FullStringConcat(int input)
+    {
+        return (Weeks(input) + " Week/s and " + Days(input) + " Day/s");
     }
 
-    static int Days(int input)
-    {
-        int dayNo = input % 7;
-        return dayNo;
+        static void Main(string[] args)
+        {
+            int testTotalDays = 8;    //Value to be tested
+            System.Console.WriteLine(FullStringConcat(testTotalDays));
+        }
     }
-
-    static void Main(string[] args)
-    {
-        int testTotalDays = 8;    //Value to be tested
-
-        System.Console.WriteLine("{0} Week/s and {2} Day/s", Weeks(testTotalDays), Days(testTotalDays) );
-    }
-}
