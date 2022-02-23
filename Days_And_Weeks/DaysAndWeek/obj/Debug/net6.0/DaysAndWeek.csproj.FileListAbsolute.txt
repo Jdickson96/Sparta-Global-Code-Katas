@@ -1,0 +1,15 @@
+C:\Users\James\Desktop\testCSharp\DaysAndWeek\DaysAndWeek\bin\Debug\net6.0\DaysAndWeek.exe
+C:\Users\James\Desktop\testCSharp\DaysAndWeek\DaysAndWeek\bin\Debug\net6.0\DaysAndWeek.deps.json
+C:\Users\James\Desktop\testCSharp\DaysAndWeek\DaysAndWeek\bin\Debug\net6.0\DaysAndWeek.runtimeconfig.json
+C:\Users\James\Desktop\testCSharp\DaysAndWeek\DaysAndWeek\bin\Debug\net6.0\DaysAndWeek.dll
+C:\Users\James\Desktop\testCSharp\DaysAndWeek\DaysAndWeek\bin\Debug\net6.0\DaysAndWeek.pdb
+C:\Users\James\Desktop\testCSharp\DaysAndWeek\DaysAndWeek\obj\Debug\net6.0\DaysAndWeek.csproj.AssemblyReference.cache
+C:\Users\James\Desktop\testCSharp\DaysAndWeek\DaysAndWeek\obj\Debug\net6.0\DaysAndWeek.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\James\Desktop\testCSharp\DaysAndWeek\DaysAndWeek\obj\Debug\net6.0\DaysAndWeek.AssemblyInfoInputs.cache
+C:\Users\James\Desktop\testCSharp\DaysAndWeek\DaysAndWeek\obj\Debug\net6.0\DaysAndWeek.AssemblyInfo.cs
+C:\Users\James\Desktop\testCSharp\DaysAndWeek\DaysAndWeek\obj\Debug\net6.0\DaysAndWeek.csproj.CoreCompileInputs.cache
+C:\Users\James\Desktop\testCSharp\DaysAndWeek\DaysAndWeek\obj\Debug\net6.0\DaysAndWeek.dll
+C:\Users\James\Desktop\testCSharp\DaysAndWeek\DaysAndWeek\obj\Debug\net6.0\refint\DaysAndWeek.dll
+C:\Users\James\Desktop\testCSharp\DaysAndWeek\DaysAndWeek\obj\Debug\net6.0\DaysAndWeek.pdb
+C:\Users\James\Desktop\testCSharp\DaysAndWeek\DaysAndWeek\obj\Debug\net6.0\DaysAndWeek.genruntimeconfig.cache
+C:\Users\James\Desktop\testCSharp\DaysAndWeek\DaysAndWeek\obj\Debug\net6.0\ref\DaysAndWeek.dll
