@@ -46,7 +46,7 @@ public void GivenAMixOfCases_VowelNo_ReturnsCorrectValue(string words)
 
 ## Code Kata 2: Days And Week
 > Write a method which takes a number of day, and returns the number of weeks and leftover days it represents as a string. E.g. Given 8, your method should return "1 week/s and 1 day/s"
-
+> 
 > BONUS FOR: 
 > - Using StringBuilder/StringBuffer
 > - One line method
