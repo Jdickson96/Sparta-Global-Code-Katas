@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\James\\Desktop\\testCSharp\\testCSharp\\testCSharp.csproj": {}
+    "C:\\Users\\James\\Desktop\\Sparta Global Code Katas\\Vowel_Counter\\testCSharp\\testCSharp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\James\\Desktop\\testCSharp\\testCSharp\\testCSharp.csproj": {
+    "C:\\Users\\James\\Desktop\\Sparta Global Code Katas\\Vowel_Counter\\testCSharp\\testCSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\James\\Desktop\\testCSharp\\testCSharp\\testCSharp.csproj",
+        "projectUniqueName": "C:\\Users\\James\\Desktop\\Sparta Global Code Katas\\Vowel_Counter\\testCSharp\\testCSharp.csproj",
         "projectName": "testCSharp",
-        "projectPath": "C:\\Users\\James\\Desktop\\testCSharp\\testCSharp\\testCSharp.csproj",
+        "projectPath": "C:\\Users\\James\\Desktop\\Sparta Global Code Katas\\Vowel_Counter\\testCSharp\\testCSharp.csproj",
         "packagesPath": "C:\\Users\\James\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\James\\Desktop\\testCSharp\\testCSharp\\obj\\",
+        "outputPath": "C:\\Users\\James\\Desktop\\Sparta Global Code Katas\\Vowel_Counter\\testCSharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\James\\AppData\\Roaming\\NuGet\\NuGet.Config",

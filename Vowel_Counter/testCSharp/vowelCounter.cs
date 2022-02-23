@@ -1,6 +1,8 @@
-﻿class VowelCounter
+﻿using System;
+namespace CodeToTest;
+public class VowelCounter
 {
-    static int VowelNo(string input)
+    public static string VowelNo(string input)
     {
         int vowelNo = 0;
         string lowerCaseInput = input.ToLower();    //Converts to lower case to allow for easier char search
@@ -16,12 +18,12 @@
                 //Nothing happens if no vowel
             }
         }
-        return vowelNo; 
+        return ("Number of Vowels in \"" + input + "\" is:" + vowelNo); 
     }
 
     static void Main(string[] args)
     {
         string testString = "Little Test Words";    //String to be tested
-        System.Console.WriteLine("Number of Vowels in \"{0}\" is: {1}", testString, VowelNo(testString));
+        System.Console.WriteLine(VowelNo(testString));
     }  
     }

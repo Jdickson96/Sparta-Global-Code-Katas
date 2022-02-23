@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3J5l9Bx77hcsnwAepIH/5om8k2DND4kbEtBkEE0763wtCs9MKp85WTDIrFer+Vu0fd9hXzjWTP2vSll5yjZ8Dg==",
+  "dgSpecHash": "yMaw3a5D4CIA5e55ELKb6LRUlhM6XT3q+ex8XrYU/qm5la4Z7KzEVd337p2/e20z8zMB0b3FreV6mqdrvoPozA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\James\\Desktop\\testCSharp\\testCSharp\\testCSharp.csproj",
+  "projectFilePath": "C:\\Users\\James\\Desktop\\Sparta Global Code Katas\\Vowel_Counter\\testCSharp\\testCSharp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
