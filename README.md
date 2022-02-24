@@ -1,5 +1,5 @@
-# Sparta-Global-Code-Katas
- The Code Katas Completed During Sparta Global Training
+# Sparta Global: Code Katas
+ The Code Kata tasks Completed During Sparta Global Training
 
 ## Code Kata 1: Vowels In A String
 The task was to:
