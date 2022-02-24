@@ -51,4 +51,33 @@ public void GivenAMixOfCases_VowelNo_ReturnsCorrectValue(string words)
 > - Using StringBuilder/StringBuffer
 > - One line method
 > - Doing all of the above!
-I broke this code down in to a seper
+
+I broke this code down in to a seperate classes for the Day, Week and Concaternation actions being performed. This is overly broken down however while learning C and C++ I was taught to use classes and functions in order to ease debugging.
+
+The week is simply the full number of times the value can be divided by 7.
+> int weekNo = input / 7;
+
+The number of days is simply the remainder from the value being divided by 7, found via the use of the modulus operator.
+> int dayNo = input % 7;
+
+Finally, the previously found values are concaternated via the use of the plus operator.
+> return (Weeks(input) + " Week/s and " + Days(input) + " Day/s");
+
+### The Testing Code
+The NUnit testing code simply tests and out of range value along with an edge value. This ensures some level of confidence in the code, however truthfully I struggled to think of other events to test.
+
+```csharp
+[TestCase(-8)]
+[Category("Out of Range Testing")]
+public void GivenAtimeBetween5and12Inclusive_Greeting_ReturnsGoodEvening(int testDays)
+     {
+      Assert.That("-1 Week/s and -1 Day/s", Is.EqualTo(WeekAndDayCalculator.FullStringConcat(testDays)));
+     }
+
+[TestCase(7)]
+[Category("Edge Testing")]
+public void GivenAtimeBetween12and18Inclusive_Greeting_ReturnsGoodAfternoon(int testDays)
+      {
+       Assert.That("1 Week/s and 0 Day/s", Is.EqualTo(WeekAndDayCalculator.FullStringConcat(testDays)));
+      }
+```
