@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Code Kata 3/1.0.0": {
+        "runtime": {
+          "Code Kata 3.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Code Kata 3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
