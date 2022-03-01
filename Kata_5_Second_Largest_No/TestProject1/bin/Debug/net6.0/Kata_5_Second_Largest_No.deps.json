@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Kata_5_Second_Largest_No/1.0.0": {
+        "runtime": {
+          "Kata_5_Second_Largest_No.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Kata_5_Second_Largest_No/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
