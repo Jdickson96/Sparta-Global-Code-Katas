@@ -4,6 +4,7 @@
 > Index
 > 
 > [Code Kata 1: Vowels In A String](#Code-Kata-1-Vowels-In-A-String)
+> [Code Kata 2: Days And Weeks](#Code-Kata-2-Days-And-Weeks)
 
 ## Code Kata 1 Vowels In A String
 The task was to:
@@ -48,7 +49,7 @@ public void GivenAMixOfCases_VowelNo_ReturnsCorrectValue(string words)
      }
 ```
 
-## Code Kata 2: Days And Week
+## Code Kata 2 Days And Weeks
 > Write a method which takes a number of day, and returns the number of weeks and leftover days it represents as a string. E.g. Given 8, your method should return "1 week/s and 1 day/s"
 > 
 > BONUS FOR: 
