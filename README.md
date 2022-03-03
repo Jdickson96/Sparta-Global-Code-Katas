@@ -100,19 +100,32 @@ The task required:
 >[]                                -->  "no one likes this"
 >
 >["Peter"]                         -->  "Peter likes this"
-
+>
 >["Jacob", "Alex"]                 -->  "Jacob and Alex like this"
 >
 >["Max", "John", "Mark"]           -->  "Max, John and Mark like this"
 >
 >["Alex", "Jacob", "Mark", "Max"]  -->  "Alex, Jacob and 2 others like this"
+>
+>Note: For 4 or more names, the number in "and 2 others" simply increases.
+
 
 
 ## Code Kata 4 Duplicate Letters
+The task required:
+>Create a method which takes a string and returns an array of duplicate letters e.g. "Nishant Mandal" => (a,n).
+>
+>Include unit tests.
+
 
 
 ## Code Kata 5 Second Largest Number
+The task required:
+>Finding the second largest number in an array while, considering edge cases: empty arrays, arrays with one number, arrays where all the numbers are the same
+
 
 
 ## Code Kata 6 Closest To Zero
+The task required:
+>Find the number closest to zero - consider all numbers being the same in the array/list, negative numbers, numbers that are the same distance from zero (i2 and 2).
 
