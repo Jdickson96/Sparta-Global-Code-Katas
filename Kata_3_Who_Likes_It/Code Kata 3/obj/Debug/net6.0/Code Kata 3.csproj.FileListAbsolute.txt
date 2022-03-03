@@ -13,3 +13,18 @@ C:\Users\James\Desktop\Sparta Global Code Katas\Code Kata 3\Code Kata 3\obj\Debu
 C:\Users\James\Desktop\Sparta Global Code Katas\Code Kata 3\Code Kata 3\obj\Debug\net6.0\Code Kata 3.pdb
 C:\Users\James\Desktop\Sparta Global Code Katas\Code Kata 3\Code Kata 3\obj\Debug\net6.0\Code Kata 3.genruntimeconfig.cache
 C:\Users\James\Desktop\Sparta Global Code Katas\Code Kata 3\Code Kata 3\obj\Debug\net6.0\ref\Code Kata 3.dll
+C:\Users\James\Desktop\Sparta Global Code Katas\Kata_3_Who_Likes_It\Code Kata 3\bin\Debug\net6.0\Code Kata 3.exe
+C:\Users\James\Desktop\Sparta Global Code Katas\Kata_3_Who_Likes_It\Code Kata 3\bin\Debug\net6.0\Code Kata 3.deps.json
+C:\Users\James\Desktop\Sparta Global Code Katas\Kata_3_Who_Likes_It\Code Kata 3\bin\Debug\net6.0\Code Kata 3.runtimeconfig.json
+C:\Users\James\Desktop\Sparta Global Code Katas\Kata_3_Who_Likes_It\Code Kata 3\bin\Debug\net6.0\Code Kata 3.dll
+C:\Users\James\Desktop\Sparta Global Code Katas\Kata_3_Who_Likes_It\Code Kata 3\bin\Debug\net6.0\Code Kata 3.pdb
+C:\Users\James\Desktop\Sparta Global Code Katas\Kata_3_Who_Likes_It\Code Kata 3\obj\Debug\net6.0\Code Kata 3.csproj.AssemblyReference.cache
+C:\Users\James\Desktop\Sparta Global Code Katas\Kata_3_Who_Likes_It\Code Kata 3\obj\Debug\net6.0\Code Kata 3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\James\Desktop\Sparta Global Code Katas\Kata_3_Who_Likes_It\Code Kata 3\obj\Debug\net6.0\Code Kata 3.AssemblyInfoInputs.cache
+C:\Users\James\Desktop\Sparta Global Code Katas\Kata_3_Who_Likes_It\Code Kata 3\obj\Debug\net6.0\Code Kata 3.AssemblyInfo.cs
+C:\Users\James\Desktop\Sparta Global Code Katas\Kata_3_Who_Likes_It\Code Kata 3\obj\Debug\net6.0\Code Kata 3.csproj.CoreCompileInputs.cache
+C:\Users\James\Desktop\Sparta Global Code Katas\Kata_3_Who_Likes_It\Code Kata 3\obj\Debug\net6.0\Code Kata 3.dll
+C:\Users\James\Desktop\Sparta Global Code Katas\Kata_3_Who_Likes_It\Code Kata 3\obj\Debug\net6.0\refint\Code Kata 3.dll
+C:\Users\James\Desktop\Sparta Global Code Katas\Kata_3_Who_Likes_It\Code Kata 3\obj\Debug\net6.0\Code Kata 3.pdb
+C:\Users\James\Desktop\Sparta Global Code Katas\Kata_3_Who_Likes_It\Code Kata 3\obj\Debug\net6.0\Code Kata 3.genruntimeconfig.cache
+C:\Users\James\Desktop\Sparta Global Code Katas\Kata_3_Who_Likes_It\Code Kata 3\obj\Debug\net6.0\ref\Code Kata 3.dll

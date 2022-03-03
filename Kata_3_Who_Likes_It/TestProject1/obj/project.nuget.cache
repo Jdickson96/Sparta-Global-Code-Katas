@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OS1XkQw1Yv4P+kUkMb5Ke4XJaLoPSwfX329GDiaWCrLT/MwS+hIVT1T7J7hBPfZz+vM5o5cOzY6Yt+l7LzkXwQ==",
+  "dgSpecHash": "3rYQg6FYThMEPWcSvuiyHMK1zIn8Yk6uUEZpkzoSWRWgM3BZTNW9+vTMmZPIosEQLYz3CbZllQwpdq1Ik06ugQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\James\\Desktop\\Sparta Global Code Katas\\Code Kata 3\\TestProject1\\TestProject1.csproj",
+  "projectFilePath": "C:\\Users\\James\\Desktop\\Sparta Global Code Katas\\Kata_3_Who_Likes_It\\TestProject1\\TestProject1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\James\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\James\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",
