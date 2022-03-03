@@ -3,8 +3,12 @@
 
 > Index
 > 
-> [Code Kata 1: Vowels In A String](#Code-Kata-1-Vowels-In-A-String)
-> [Code Kata 2: Days And Weeks](#Code-Kata-2-Days-And-Weeks)
+> * [Code Kata 1: Vowels In A String](#Code-Kata-1-Vowels-In-A-String)
+> * [Code Kata 2: Days And Weeks](#Code-Kata-2-Days-And-Weeks)
+> * [Code Kata 3 Who Likes It?](#Code-Kata-3-Who-Likes-It?)
+> * [Code Kata 4 Duplicate Letters](#Code-Kata-4-Duplicate-Letters)
+> * [Code Kata 5 Second Largest Number](#Code-Kata-5-Second-Largest-Number)
+> * [Code Kata 6 Closest To Zero](#Code-Kata-6-Closest-To-Zero)
 
 ## Code Kata 1 Vowels In A String
 The task was to:
@@ -86,3 +90,15 @@ public void GivenAtimeBetween12and18Inclusive_Greeting_ReturnsGoodAfternoon(int 
        Assert.That("1 Week/s and 0 Day/s", Is.EqualTo(WeekAndDayCalculator.FullStringConcat(testDays)));
       }
 ```
+
+## Code Kata 3 Who Likes It?
+
+
+## Code Kata 4 Duplicate Letters
+
+
+## Code Kata 5 Second Largest Number
+
+
+## Code Kata 6 Closest To Zero
+
