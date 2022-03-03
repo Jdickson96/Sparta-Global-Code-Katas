@@ -109,7 +109,23 @@ The task required:
 >
 >Note: For 4 or more names, the number in "and 2 others" simply increases.
 
+This task has the simple input of an array of strings containing names. This is useful as the length of this array will give you the number of people who have liked this, with the contents being the names to be displayed. This means that the `.Length` method can be used to create a simple solution to the kata.
 
+```csharp
+switch (name.Length)
+        {
+            case 0:
+                return "no one likes this";
+            case 1:
+                return $"{name[0]} likes this";
+            case 2:
+                return $"{name[0]} and {name[1]} like this";
+            case 3:
+                return $"{name[0]}, {name[1]} and {name[2]} like this";
+            default:
+                return $"{name[0]}, {name[1]} and {name.Length - 2} others like this"; // The -2 accounts for the names mentioned
+        }
+```
 
 ## Code Kata 4 Duplicate Letters
 The task required:
@@ -117,15 +133,106 @@ The task required:
 >
 >Include unit tests.
 
+The first action in this task is to convert all of the characters in the string to lower case in order to make them easier to search (via the use of the `.ToLower()` operator. The rest of the method makes use of an array of integers to store the number of each letters (a memory intensive solution that I will come back to). With the method using a `ForEach` loop to cycle through each letter in the input and add to any integer values for each letter present. There is then a loop to find the values over 1 in this array (the duplicated letters) and then add these to the output array of chars.
 
+```csharp
+public static char[] StringToDuplicates(string input)
+    {
+        string lowerCaseInput = input.ToLower();
+
+        List<char> duplicates = new List<char>();
+        int[] letterNos = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+        string alphabet = "abcdefghijklmnopqrstuvwxyz";
+        int location;
+        foreach(char letter in lowerCaseInput)
+        {
+            location = alphabet.IndexOf(letter);
+            if (location != -1) 
+            {
+                letterNos[location]++;
+            }
+        }
+        
+        for(int i=0; i<26; i++)
+        {
+            if (letterNos[i] > 1)
+            {
+                duplicates.Add(alphabet[i]);
+            }
+        }
+        return duplicates.ToArray();
+    }
+```
+
+The tests for this system where then a simple variety of test cases with multiple duplicates and cases where no letter is duplicated.
 
 ## Code Kata 5 Second Largest Number
 The task required:
 >Finding the second largest number in an array while, considering edge cases: empty arrays, arrays with one number, arrays where all the numbers are the same
 
+To solve this issue I made use of two `for loops`, with one of them used to first find the largest value in the system and store its position in the array. By storing the position of the largest value in the array, it means it can be ignored by the second `for loop` using the same method as the first.
 
+```csharp
+    public static int SecondLargest(int[] input)
+    {
+        int largestInt = input[0];
+        int largestIndex = 0;
+        int secondLargestInt = input[1];
+        int numberOfInts = input.Length;
+
+            {
+                for (int i = 0; i < numberOfInts; i++)
+                {
+                    if (input[i] > largestInt)
+                    {
+                        largestInt = input[i];
+                        largestIndex = i;
+                    }
+                }
+
+                for (int i = 0; i < numberOfInts; i++)
+                {
+                    if (input[i] > secondLargestInt && i != largestIndex)
+                    {
+                        secondLargestInt = input[i];
+                    }
+                }
+            }
+            return secondLargestInt;
+    }
+```
 
 ## Code Kata 6 Closest To Zero
 The task required:
->Find the number closest to zero - consider all numbers being the same in the array/list, negative numbers, numbers that are the same distance from zero (i2 and 2).
+>Find the number closest to zero - consider all numbers being the same in the array/list, negative numbers, numbers that are the same distance from zero (ie 2 and 2).
 
+To complete the task I first focused on the issue of having both positive and negative numbers input into the system. This was accounted for by the use of the `Math.Abs()` method as this converts all of the digits to positives. I also made use of a `String Builder` class when crafting the output to the system as this reduces the memory usage of the system.
+
+```csharp
+       public static string ClosestToZero(int[] input)
+        {
+            StringBuilder sb = new StringBuilder();
+            int closestToZero = int.MaxValue;
+
+            for (int i = 0; i < input.Length; i++)
+            {
+                if (input[i] < 0)
+                {
+                    input[i] = Math.Abs(input[i]);  //This converts all negative  numbers to positive
+                }
+
+                if (input[i] < closestToZero)
+                {
+                    sb.Clear();
+                    sb.Append($"Lowest Value is: {input[i]} at position/s: {i}");
+                    closestToZero = input[i];
+                }
+                else if (input[i] == closestToZero)
+                {
+                    sb.Append($",{i}");
+                }
+            }
+            return sb.ToString();
+        }
+```
