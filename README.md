@@ -2,6 +2,7 @@
  The Code Kata tasks Completed During Sparta Global Training
 
 > Index
+> 
 > [Code Kata 1: Vowels In A String](#Code-Kata-1-Vowels-In-A-String)
 
 ## Code Kata 1 Vowels In A String
