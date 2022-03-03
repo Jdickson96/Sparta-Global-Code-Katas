@@ -2,9 +2,9 @@
  The Code Kata tasks Completed During Sparta Global Training
 
 > Index
-> [Code Kata 1: Vowels In A String](#Code-Kata-1:-Vowels-In-A-String)
+> [Code Kata 1: Vowels In A String](#Code-Kata-1-Vowels-In-A-String)
 
-## Code Kata 1: Vowels In A String
+## Code Kata 1 Vowels In A String
 The task was to:
 >Create a method which takes a String and returns the number of vowels in that string and then write unit tests.
 
